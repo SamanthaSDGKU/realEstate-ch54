@@ -1,4 +1,7 @@
 /*global*/
+.fa-sign-hanging{
+    font-size: 12px;
+}
 html{
     font-size:62.5%;/*10px*/
 }
@@ -85,4 +88,74 @@ li{
 }
 .house-details img{
     margin-right: 3rem;
+}
+/*contact*/
+
+.contact-header{
+    background-color: orange;
+    height: 150px;
+    color:black;
+}
+.contact-header a{
+    color:black;
+}
+
+/*form-container*/
+.form-container{
+    background-color: #dedede;
+    padding:20px;
+    border-radius: 10px;
+}
+legend{
+    font-size: 12px;
+}
+fieldset{
+    border:1px solid gray;
+    padding:20px;
+    border-radius: 10px;
+}
+.form-control{
+    margin-bottom: 20px;
+}
+.form-control input,
+.form-control textarea{
+    border:none;
+    width:70%;
+    padding:5px;
+    border-radius:3px;
+}
+.form-control label{
+    display: inline-block;
+    width:150px
+}
+footer{
+
+    background-color: #dedede;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    border:1px solid black;
+    border-radius: 50%;
+    width:20px;
+    padding:10px;
+    margin-right:20px;
+}
+.privacy-text{
+    display: flex;
+}
+.privacy-text p:last-of-type{
+    border-left:2px solid black;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: 900;
 }
