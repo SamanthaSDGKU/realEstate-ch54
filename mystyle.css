@@ -34,11 +34,17 @@ img{
     max-width:100%;
 }
 
+
 /*utilities*/ 
 .container{
     width:80%;
     margin-left: auto;
     margin-right: auto;
+}
+@media(max-width:768px){
+    .container{
+        width:95%;
+    }
 }
 /*header*/
 .site-header{
@@ -54,12 +60,30 @@ img{
     justify-content: space-around;
     align-items: center;
 }
-
+@media(max-width:768px){
+    .menu-bar{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 /*about*/
 .about-container{
     display: flex;
+    flex-direction: row;
 }
-
+@media(max-width:768px){
+    .about-container{
+        flex-direction: column;
+    }
+    h2,h3{
+        text-align: center;
+    }
+    .about-container img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 /*houses*/
 .houses-item{
     background-color: #dedede;
